@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+
+dataset/*
+!dataset/.gitkeep
+
+results/*
+!results/.gitkeep
+
+# NOTE: 배포 가중치(models/)는 계속 git 으로 관리한다 — .onnx 의 유일한 원본이다.
+
+# Logs / outputs / figures
+logs/
+*.log
+runs/
+wandb/
+
+# ROS / colcon build artifacts
+install/
+log/
+*.pyc
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
